@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 27px;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+svg {
+    height: 16px;
+    width: 16px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul a:hover {
+    color: #ffdd57;
+}
+
+.active {
+    color: #ffdd57; /* Red color indicating the current page */
+    font-weight: bold; /* You can add other styles to highlight it */
+}
+
+.container {
+    margin: 70px;
+}
+
+.two-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.three-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.three-grid img {
+    width: 400px;
+    height: 400px;
+    border: 3px solid rgb(255, 58, 225);
+    border-radius: 18px;
+}
+
+.two-grid img {
+    width: 680px;
+    height: 400px;
+    border: 3px solid rgb(255, 58, 225);
+    border-radius: 18px;
+}
+
+.wildlife img {
+    border: 3px solid rgb(81, 255, 58);
+}
+
+.events img {
+    border:3px solid rgb(58, 202, 255);
+}
+
+.landscapes img {
+    border: 3px solid rgb(255, 160, 58);
+}

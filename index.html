@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="flex">
+                <li><a href="#" id="homelink">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li> <!-- Link to gallery page -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <p class="para flex">Moments become timeless memories through the lens.</p>
+    </main>
+
+    <section id="gallery" class="three flex">
+        <div class="gall-bar flex"><span>GALLERY</span></div>
+        <div class="container ">
+            <!-- Portraits Section -->
+            <section class="gallery-section" id="portraits">
+                <div class="gallery-gri">
+                    <a href="portraits.html"><img
+                            src="https://media.macphun.com/img/uploads/customer/blog/2063/17207933906691392eca50c5.60754150.jpg?q=85&w=1680"
+                            alt="Portraits"></a>
+                </div>
+            </section>
+
+            <!-- Landscapes Section -->
+            <section class="gallery-section" id="landscapes">
+                <div class="gallery-gd">
+                    <a href="landscapes.html"><img
+                            src="https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6_3x2.jpg"
+                            alt="Landscapes"></a>
+                </div>
+            </section>
+
+            <!-- Events Section -->
+            <section class="gallery-section" id="events">
+                <div class="galleryrid">
+                    <a href="events.html"><img
+                            src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="Events"></a>
+                </div>
+            </section>
+
+            <!-- Wildlife Section -->
+            <section class="gallery-section" id="wildlife">
+                <div class="galle-grid">
+                    <a href="wildlife.html"><img
+                            src="data:image/jpeg;base64,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"
+                            alt="Wildlife"></a>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-divider"></div>
+        <div class="about-container">
+            <div class="about-left">
+                <h2>About Me</h2>
+                <p>I'm Sahil More, a Mumbai-based photographer specializing in capturing moments that matter.</p>
+                <p>My work includes portraits, events, and landscapes, each reflecting my commitment to quality and
+                    creativity.</p>
+                <p>I believe every photograph has a story to tell, and I aim to bring those stories to life.</p>
+            </div>
+            <div class="about-right">
+                <img src="https://www.bringitonline.in/uploads/2/2/4/5/22456530/portfolio-photographers-in-india-bring-it-online_orig.jpeg"
+                    alt="Your Name" class="profile-photo">
+            </div>
+        </div>
+        <!-- Section Divider -->
+        <div class="section-divider"></div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-left">
+                <h2>Let's Connect</h2>
+                <p>I’m always excited to capture new moments. Feel free to reach out for collaborations, questions, or
+                    simply to say hello.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                        <p>Mumbai, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                        <p class="email-id"> yourphotography@mail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+91-1234567890</p>
+                    </div>
+                    <p>Get in touch on social media:</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                            </svg> </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <div class="top">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#f1f2f3"
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+        </svg>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
